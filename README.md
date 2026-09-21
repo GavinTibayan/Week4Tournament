@@ -9,7 +9,7 @@ For this week, you will be doing your first real project. You must include each 
   - Ties
 - Calculate the total points using the following formula:
   - Wins * 2 + Ties * 1
-- List the 6 teams in order from the highest to the lowest scoring team
+- List the teams in order they were entered, and then print out which team is the top of the standings.
 - Print out in the following:
 - `Team name: Irish    Wins: 4  Ties: 3  Losses: 1  Points: 11`
 - The names MUST be read in from the screen. Use appropriate data types
