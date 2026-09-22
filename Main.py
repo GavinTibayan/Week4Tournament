@@ -6,6 +6,7 @@
 #
 # Project Description: See the README file
 #############################################
+from idlelib.query import HelpSource
 
 # THIS IS WHERE YOU CODE
 #Team Name
@@ -98,32 +99,28 @@ Number6 = min(Final1,Final2,Final3,Final4,Final5,Final6)
 #Calculate remainder numbers
 if Number1 != Final1 or Number6 != Final1:
     Remainder1 = Final1
-elif Number1 != Final2 or Number6 != Final2:
+else:
+    Remainder1 = int(0)
+if Number1 != Final2 or Number6 != Final2:
     Remainder2 = Final2
-elif Number1 != Final3 or Number6 != Final3:
+else:
+    Remainder2 = int(0)
+if Number1 != Final3 or Number6 != Final2:
     Remainder3 = Final3
-elif Number1 != Final4 or Number6 != Final4:
+else:
+    Remainder3 = int(0)
+if Number1 != Final4 or Number6 != Final4:
     Remainder4 = Final4
-elif Number1 != Final5 or Number6 != Final5:
+else:
+    Remainder4 = int(0)
+if Number1 != Final5 or Number6 != Final5:
     Remainder5 = Final5
-elif Number1 != Final6 or Number6 != Final6:
+else:
+    Remainder5 = int(0)
+if Number1 != Final6 or Number6 != Final6:
     Remainder6 = Final6
 else:
-    exit()
-if Remainder1 != Final1:
-    Remainder1 = int(0)
-elif Remainder2 != Final2:
-    Remainder2 = int(0)
-elif Remainder3 != Final3:
-    Remainder3 = int(0)
-elif Remainder4 != Final4:
-    Remainder4 = int(0)
-elif Remainder5 != Final5:
-    Remainder5 = int(0)
-elif Remainder6 != Final6:
     Remainder6 = int(0)
-else:
-    exit()
 Number2 = max(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
 Number5 = min(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
 #Last Stuff
@@ -158,6 +155,13 @@ else:
 Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
 Number4 = min(Last1,Last2,Last3,Last4,Last5,Last6)
 #Podium
+Final1 = Team1
+Final2 = Team2
+Final3 = Team3
+Final4 = Team4
+Final5 = Team5
+Final6 = Team6
+
 print("In 6th place is...", Number6)
 input()
 print("In 5th place is...", Number5)
