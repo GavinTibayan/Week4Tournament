@@ -95,6 +95,68 @@ input()
 #Podium Calculation
 Number1 = max(Final1,Final2,Final3,Final4,Final5,Final6)
 Number6 = min(Final1,Final2,Final3,Final4,Final5,Final6)
+#Calculate remainder numbers
+if Number1 != Final1 or Number6 != Final1:
+    Remainder1 = Final1
+elif Number1 != Final2 or Number6 != Final2:
+    Remainder2 = Final2
+elif Number1 != Final3 or Number6 != Final3:
+    Remainder3 = Final3
+elif Number1 != Final4 or Number6 != Final4:
+    Remainder4 = Final4
+elif Number1 != Final5 or Number6 != Final5:
+    Remainder5 = Final5
+elif Number1 != Final6 or Number6 != Final6:
+    Remainder6 = Final6
+else:
+    exit()
+if Remainder1 != Final1:
+    Remainder1 = int(0)
+elif Remainder2 != Final2:
+    Remainder2 = int(0)
+elif Remainder3 != Final3:
+    Remainder3 = int(0)
+elif Remainder4 != Final4:
+    Remainder4 = int(0)
+elif Remainder5 != Final5:
+    Remainder5 = int(0)
+elif Remainder6 != Final6:
+    Remainder6 = int(0)
+else:
+    exit()
+Number2 = max(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
+Number5 = min(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
+#Last Stuff
+if Number2 != Final1 or Number5 != Final1:
+    Last1 = Final1
+elif Number2 != Final2 or Number5 != Final2:
+    Last2 = Final2
+elif Number2 != Final3 or Number5 != Final3:
+    Last3 = Final3
+elif Number2 != Final4 or Number5 != Final4:
+    Last4 = Final4
+elif Number2 != Final5 or Number5 != Final5:
+    Last5 = Final5
+elif Number2 != Final6 or Number5 != Final6:
+    Last6 = Final6
+else:
+    exit()
+if Last1 != Final1:
+    Last1 = int(0)
+elif Last2 != Final2:
+    Last2 = int(0)
+elif Last3 != Final3:
+    Last3 = int(0)
+elif Last4 != Final4:
+    Last4 = int(0)
+elif Last5 != Final5:
+    Last5 = int(0)
+elif Last6 != Final6:
+    Last6 = int(0)
+else:
+    exit()
+Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
+Number4 = min(Last1,Last2,Last3,Last4,Last5,Last6)
 #Podium
 print("In 6th place is...", Number6)
 input()
