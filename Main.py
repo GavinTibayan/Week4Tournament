@@ -93,8 +93,8 @@ print("Team name:",Team6,"wins:",Wins6,"Ties:",Ties6,"Losses:",Losses6,"Points:"
 print("\t\tpress enter to continue to the next lines")
 input()
 #Podium Calculation
-
-
+Number1 = max(Final1,Final2,Final3,Final4,Final5,Final6)
+Number6 = min(Final1,Final2,Final3,Final4,Final5,Final6)
 #Podium
 print("In 6th place is...", Number6)
 input()
