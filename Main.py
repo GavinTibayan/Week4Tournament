@@ -107,5 +107,5 @@ elif Number1 == Final5:
     Winner = Team5
 else:
     Winner = Team6
-print("And the winner of this tournament is...", Number1)
+print("And the winner of this tournament is...", Winner)
 
