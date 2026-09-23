@@ -100,54 +100,54 @@ Number6 = min(Final1,Final2,Final3,Final4,Final5,Final6)
 if Number1 != Final1 or Number6 != Final1:
     Remainder1 = Final1
 else:
-    Remainder1 = ()
+    Remainder1 = (None)
 if Number1 != Final2 or Number6 != Final2:
     Remainder2 = Final2
 else:
-    Remainder2 = ()
+    Remainder2 = (None)
 if Number1 != Final3 or Number6 != Final2:
     Remainder3 = Final3
 else:
-    Remainder3 = ()
+    Remainder3 = (None)
 if Number1 != Final4 or Number6 != Final4:
     Remainder4 = Final4
 else:
-    Remainder4 = ()
+    Remainder4 = (None)
 if Number1 != Final5 or Number6 != Final5:
     Remainder5 = Final5
 else:
-    Remainder5 = ()
+    Remainder5 = (None)
 if Number1 != Final6 or Number6 != Final6:
     Remainder6 = Final6
 else:
-    Remainder6 = ()
+    Remainder6 = (None)
 Number2 = max(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
 Number5 = min(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
 #Last Stuff
 if Number1 != Final1 or Number6 != Final1:
     Last1 = Final1
 else:
-    Last1 = ()
+    Last1 = (None)
 if Number1 != Final2 or Number6 != Final2:
     Last2 = Final2
 else:
-    Last2 = ()
+    Last2 = (None)
 if Number1 != Final3 or Number6 != Final2:
     Last3 = Final3
 else:
-    Last3 = ()
+    Last3 = (None)
 if Number1 != Final4 or Number6 != Final4:
     Last4 = Final4
 else:
-    Last4 = ()
+    Last4 = (None)
 if Number1 != Final5 or Number6 != Final5:
     Last5 = Final5
 else:
-    Last5 = ()
+    Last5 = (None)
 if Number1 != Final6 or Number6 != Final6:
     Last6 = Final6
 else:
-    Last6 = ()
+    Last6 = (None)
 Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
 Number4 = min(Last1,Last2,Last3,Last4,Last5,Last6)
 #Podium
