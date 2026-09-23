@@ -122,7 +122,7 @@ if Number1 == Final6 or Number6 == Final6:
 else:
     Remainder6 = Final6
 Number2 = max(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
-#Last Stuff
+#Look for 3rd
 if Number2 == Final1 or Final1 or Number1 == Final1 or Number6 == Final1:
     Last1 = int()
 else:
@@ -148,6 +148,58 @@ if Number2 == Final6 or Final6 or Number1 == Final6 or Number6 == Final6:
 else:
     Last6 = Final6
 Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
+#Look for 4th
+if Number2 == Final1 or Final1 or Number1 == Final1 or Number6 == Final1 or Number3 == Final1:
+    Last13 = int()
+else:
+    Last13 = Final1
+if Number2 == Final2 or Final2 or Number1 == Final2 or Number6 == Final2 or Number3 == Final1:
+    Last23 = int()
+else:
+    Last23 = Final2
+if Number2 == Final3 or Final2 or Number1 == Final3 or Number6 == Final3 or Number3 == Final1:
+    Last33 = int()
+else:
+    Last33 = Final3
+if Number2 == Final4 or Final4 or Number1 == Final4 or Number6 == Final4 or Number3 == Final1:
+    Last43 = int()
+else:
+    Last43 = Final4
+if Number2 == Final5 or Final5 or Number1 == Final5 or Number6 == Final5 or Number3 == Final1:
+    Last53 = int()
+else:
+    Last53 = Final5
+if Number2 == Final6 or Final6 or Number1 == Final6 or Number6 == Final6 or Number3 == Final1:
+    Last63 = int()
+else:
+    Last63 = Final6
+Number4 = max(Last13,Last23,Last33,Last43,Last53,Last63)
+#Look for 5th
+if Number2 == Final1 or Final1 or Number1 == Final1 or Number6 == Final1 or Number3 == Final1 or Number4 == Final1:
+    Last15 = int()
+else:
+    Last15 = Final1
+if Number2 == Final2 or Final2 or Number1 == Final2 or Number6 == Final2 or Number3 == Final2 or Number4 == Final2:
+    Last25 = int()
+else:
+    Last25 = Final2
+if Number2 == Final3 or Final2 or Number1 == Final3 or Number6 == Final3 or Number3 == Final3 or Number4 == Final3:
+    Last35 = int()
+else:
+    Last35 = Final3
+if Number2 == Final4 or Final4 or Number1 == Final4 or Number6 == Final4 or Number3 == Final4 or Number4 == Final4:
+    Last45 = int()
+else:
+    Last45 = Final4
+if Number2 == Final5 or Final5 or Number1 == Final5 or Number6 == Final5 or Number3 == Final5 or Number4 == Final5:
+    Last55 = int()
+else:
+    Last55 = Final5
+if Number2 == Final6 or Final6 or Number1 == Final6 or Number6 == Final6 or Number3 == Final6 or Number4 == Final6:
+    Last65 = int()
+else:
+    Last65 = Final6
+Number5 = max(Last15,Last25,Last35,Last45,Last55,Last65)
 #Podium
 if Number1 == Final1:
     Winner = Team1
