@@ -122,34 +122,32 @@ if Number1 == Final6 or Number6 == Final6:
 else:
     Remainder6 = Final6
 Number2 = max(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
-Number5 = min(Remainder1,Remainder2,Remainder3,Remainder4,Remainder5,Remainder6)
 #Last Stuff
-if Number2 == Final1 or Number5 == Final1 or Number1 == Final1 or Number6 == Final1:
+if Number2 == Final1 or Final1 or Number1 == Final1 or Number6 == Final1:
     Last1 = int()
 else:
     Last1 = Final1
-if Number2 == Final2 or Number5 == Final2 or Number1 == Final2 or Number6 == Final2:
+if Number2 == Final2 or Final2 or Number1 == Final2 or Number6 == Final2:
     Last2 = int()
 else:
     Last2 = Final2
-if Number2 == Final3 or Number5 == Final2 or Number1 == Final3 or Number6 == Final3:
+if Number2 == Final3 or Final2 or Number1 == Final3 or Number6 == Final3:
     Last3 = int()
 else:
     Last3 = Final3
-if Number2 == Final4 or Number5 == Final4 or Number1 == Final4 or Number6 == Final4:
+if Number2 == Final4 or Final4 or Number1 == Final4 or Number6 == Final4:
     Last4 = int()
 else:
     Last4 = Final4
-if Number2 == Final5 or Number5 == Final5 or Number1 == Final5 or Number6 == Final5:
+if Number2 == Final5 or Final5 or Number1 == Final5 or Number6 == Final5:
     Last5 = int()
 else:
     Last5 = Final5
-if Number2 == Final6 or Number5 == Final6 or Number1 == Final6 or Number6 == Final6:
+if Number2 == Final6 or Final6 or Number1 == Final6 or Number6 == Final6:
     Last6 = int()
 else:
     Last6 = Final6
 Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
-Number4 = min(Last1,Last2,Last3,Last4,Last5,Last6)
 #Podium
 if Number1 == Final1:
     Winner = Team1
