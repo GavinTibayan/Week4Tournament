@@ -155,21 +155,92 @@ else:
 Number3 = max(Last1,Last2,Last3,Last4,Last5,Last6)
 Number4 = min(Last1,Last2,Last3,Last4,Last5,Last6)
 #Podium
-Final1 = Team1
-Final2 = Team2
-Final3 = Team3
-Final4 = Team4
-Final5 = Team5
-Final6 = Team6
+if Number1 == Final1:
+    Winner = Team1
+elif Number1 == Final2:
+    Winner = Team2
+elif Number1 == Final3:
+    Winner = Team3
+elif Number1 == Final4:
+    Winner = Team4
+elif Number1 == Final5:
+    Winner = Team5
+else:
+    Winner = Team6
 
-print("In 6th place is...", Number6)
+if Number2 == Final1:
+    Second = Team1
+elif Number2 == Final2:
+    Second = Team2
+elif Number2 == Final3:
+    Second = Team3
+elif Number2 == Final4:
+    Second = Team4
+elif Number2 == Final5:
+    Second = Team5
+else:
+    Second = Team6
+
+if Number3 == Final1:
+    Third = Team1
+elif Number3 == Final2:
+    Third = Team2
+elif Number3 == Final3:
+    Third = Team3
+elif Number3 == Final4:
+    Third = Team4
+elif Number3 == Final5:
+    Third = Team5
+else:
+    Third = Team6
+
+if Number4 == Final1:
+    Fourth = Team1
+elif Number4 == Final2:
+    Fourth = Team2
+elif Number4 == Final3:
+    Fourth = Team3
+elif Number4 == Final4:
+    Fourth = Team4
+elif Number4 == Final5:
+    Fourth = Team5
+else:
+    Fourth = Team6
+
+if Number5 == Final1:
+    Fifth = Team1
+elif Number5 == Final2:
+    Fifth = Team2
+elif Number5 == Final3:
+    Fifth = Team3
+elif Number5 == Final4:
+    Fifth = Team4
+elif Number5 == Final5:
+    Fifth = Team5
+else:
+    Fifth = Team6
+    
+if Number6 == Final1:
+    Sixth = Team1
+elif Number6 == Final2:
+    Sixth = Team2
+elif Number6 == Final3:
+    Sixth = Team3
+elif Number6 == Final4:
+    Sixth = Team4
+elif Number6 == Final5:
+    Sixth = Team5
+else:
+    Sixth = Team6
+
+print("In 6th place is...", Sixth)
 input()
-print("In 5th place is...", Number5)
+print("In 5th place is...", Fifth)
 input()
-print("In 4th place is...", Number4)
+print("In 4th place is...", Fourth)
 input()
-print("In 3rd place is...", Number3)
+print("In 3rd place is...", Third)
 input()
-print("In 2nd place is...", Number2)
+print("In 2nd place is...", Second)
 input()
-print("And the winner of this tournament is...", Number1)
+print("And the winner of this tournament is...", Winner)
