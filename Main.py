@@ -1,5 +1,5 @@
 #############################################
-# Name: Your name
+# Name: Gavin Tibayan
 # Class: ICS3C
 # Date: Friday Sept. 25
 # Project Name: Week4Tournament
